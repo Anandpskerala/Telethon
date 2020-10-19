@@ -5,12 +5,28 @@ Installation
 ============
 
 Telethon is a Python library, which means you need to download and install
-Python from https://www.python.org/downloads/ if you haven't already. Once
-you have Python installed, run:
+Python from https://www.python.org/downloads/ if you haven't already. 
+
+Verification
+============
+check the python version
+
+.. code-block:: sh
+
+python
+
+
+Once you have Python installed, run:
 
 .. code-block:: sh
 
     pip3 install -U telethon --user
+
+       OR
+
+.. code-block:: sh
+
+    pip3 install -U telethon
 
 To install or upgrade the library to the latest version.
 
@@ -24,6 +40,12 @@ you can run the following command instead:
 .. code-block:: sh
 
     pip3 install -U https://github.com/LonamiWebs/Telethon/archive/master.zip --user
+    
+    OR
+    
+.. code-block:: sh
+
+    pip3 install -U https://github.com/LonamiWebs/Telethon/archive/master.zip
 
 .. note::
 
